@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html p{
+    font-size: 16px;
+}
+html h2{
+    font-size:35px;
+    line-height: 2;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav{
+    background-color: blue;
+    height: 10vh;
+}
+
+header section{
+    color:white
+}
+
+header section a{
+    color: white;
+}
+
+.sezione1{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione1 .testo{
+    text-align: center;
+    width: 420px;
+}
+
+
+button{
+    border-radius: 40px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.sezione1 button.scarica{
+    background-color:white;
+    color:black;
+    font-weight: bolder;
+}
+
+
+
+/*immagine il tuo posto per parlare, largo uguale
+sembra una cover, centrato fisso, menu centrato in alto
+logo: vertical align, line height,
+hover su accedi
+quasi tutti i bottoni il testo diventa blu con hover.
+
+nell' header testo : bianco
+tutti i titoli sono h1/h2 uguali, colore testo uguale dal main in giù
+nel footer testo:bianco, titolo link a tendina:blu
+<!-- i font p di tutte le sezioni sono dello stesso font -->
+
+3 sezioni 100vh
+1 sezione 10vh 40vh 50vh
+2 sezione 50vh 50vh
+3 sezione 100 vh
+footer circa 50vh
+*/
