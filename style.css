@@ -8,13 +8,6 @@ html p{
     font-size: 25px;
 }
 
-html h2{
-    font-size:50px;
-}
-.sezione1 h2{
-    line-height: 2;
-}
-
 nav{
     background-color: blue;
     height: 9vh;
@@ -59,6 +52,13 @@ header section a{
     color: white;
 }
 
+.sezione1 h2{
+    font-size:50px;
+}
+.sezione1 h2{
+    line-height: 2;
+}
+
 .sezione1{
     background-image: url(img/jumbo.png);
     background-size: cover;
@@ -93,16 +93,24 @@ button{
     font-weight: bolder;
 }
 
-.sezione2{
+
+.sezione2 h2,
+.sezione4 h2{
+    font-size:49px;
+}
+.sezione2 h2,
+.sezione4 h2{
+    line-height: 1;
+}
+
+.sezione2,
+.sezione4{
     height: 100vh;
+    position: relative;
 }
-sezione2::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.sezione2 .immagine{
-    background-color: red;
+.sezione2 .immagine,
+.sezione4 .immagine{
+   /* background-color: red;*/
     width: 60%;
     overflow: hidden;
     float:left;
@@ -110,18 +118,64 @@ sezione2::after{
     position: relative;
 }
 
-.sezione2 img{
+.sezione2 img,
+.sezione4 img{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-.sezione2 .testo{
-    background-color: royalblue;
-    width: 40%;
+.sezione2 .testo,
+.sezione4 .testo{
+   /* background-color: royalblue;*/
+    width: 26%;
+    position: absolute;
+    right:0;
+    top:20%;
+    height: 80%;
+    margin:0 7%;
+    overflow: auto;
+}
+
+/* ----- SEZIONE 3 ----- */
+
+.sezione3 h2{
+    font-size:49px;
+}
+.sezione3 h2{
+    line-height: 1;
+}
+
+.sezione3{
+    height: 100vh;
+    position: relative;
+}
+.sezione3 .immagine{
+   /* background-color: red;*/
+    width: 60%;
+    overflow: hidden;
     float:right;
     height: 100%;
+    position: relative;
+}
+
+.sezione3 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sezione3 .testo{
+   /* background-color: royalblue;*/
+    width: 26%;
+    position: absolute;
+    left:0;
+    top:20%;
+    height: 80%;
+    margin:0 7%;
+    overflow: auto;
 }
 
 
