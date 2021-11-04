@@ -12,14 +12,40 @@ html h2{
     line-height: 2;
 }
 
+nav{
+    background-color: blue;
+    height: 9vh;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+}
+
 nav li{
     display: inline-block;
     list-style: none;
 }
 
-nav{
-    background-color: blue;
-    height: 9vh;
+li.menu{
+    margin:20px 1%;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+li.accedi{
+    float: right;
+    background-color: white;
+    border-radius: 20px;
+    color:black;
+    margin:10px 0;
+    margin-right: 10%;
+    padding:10px;
+}
+li.logo{
+    float:left;
+    padding-top: 15px;
+    padding-left:10%;
 }
 
 header section{
