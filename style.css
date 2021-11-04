@@ -8,15 +8,19 @@ html p{
     font-size: 20px;
 }
 
-nav{
-    background-color: blue;
-    height: 9vh;
+.menu nav{
+    position: absolute;
+    top:0;
+    left:10%;
+    background-color: rgba(0, 0, 255, 0);
+    height: 10vh;
+    width: 80%;
     text-decoration: none;
     text-align: center;
     overflow: hidden;
 }
 
-nav li{
+li{
     display: inline-block;
     list-style: none;
 }
@@ -25,30 +29,30 @@ li.menu{
     margin:20px 1%;
 }
 
-nav a{
+a{
     text-decoration: none;
 }
 
-li.accedi{
+a.accedi{
     float: right;
     background-color: white;
     border-radius: 20px;
     color:black;
     margin:10px 0;
-    margin-right: 10%;
     padding:10px;
+    z-index: -1;
+    
 }
-li.logo{
+a.logo{
     float:left;
     padding-top: 15px;
-    padding-left:10%;
 }
 
-header section{
+header{
     color:white
 }
 
-header section a{
+header a{
     color: white;
 }
 
@@ -62,17 +66,17 @@ header section a{
 .sezione1{
     background-image: url(img/jumbo.png);
     background-size: cover;
-    height:90vh;
+    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .sezione1 .testo{
     text-align: center;
     width: 650px;
 }
-
 
 button{
     border-radius: 40px;
@@ -238,6 +242,68 @@ button{
      color: white;
  }
  
+footer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(157, 199, 219);
+    position: relative;
+    background-color: #23272a;
+}
+footer li{
+    float:left;
+    list-style: none;
+    margin: 10px 65px;
+    line-height: 2;
+}
+
+footer p{
+    font-size:15px;
+    font-weight: bold;
+    color:white
+}
+
+summary{
+    list-style: none;
+}
+
+.sezionesocial{
+    background-color: salmon;
+    width: 28%;
+    height: 50%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.sezioneinfo{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top:10%;
+    right:0;
+    overflow: overlay;
+}
+
+.fine{
+    width: 80%;
+    height: 20%;
+    border-top:1px solid blue;
+    position: absolute;
+    bottom:0;
+    left:10%;
+}
+
+.sezionesocial div.testo{
+}
+
+.sezioneinfo details{
+    float:left;
+}
+
+footer p.titolo{
+    color: #5865f2;
+}
+
 
 /*immagine il tuo posto per parlare, largo uguale
 sembra una cover, centrato fisso, menu centrato in alto
