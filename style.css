@@ -7,8 +7,11 @@
 html p{
     font-size: 25px;
 }
+
 html h2{
     font-size:50px;
+}
+.sezione1 h2{
     line-height: 2;
 }
 
@@ -90,6 +93,36 @@ button{
     font-weight: bolder;
 }
 
+.sezione2{
+    height: 100vh;
+}
+sezione2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sezione2 .immagine{
+    background-color: red;
+    width: 60%;
+    overflow: hidden;
+    float:left;
+    height: 100%;
+    position: relative;
+}
+
+.sezione2 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sezione2 .testo{
+    background-color: royalblue;
+    width: 40%;
+    float:right;
+    height: 100%;
+}
 
 
 /*immagine il tuo posto per parlare, largo uguale
