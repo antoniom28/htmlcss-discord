@@ -40,9 +40,8 @@ a.accedi{
     color:black;
     margin:15px 0;
     padding:5px;
-    z-index: -1;
-    
 }
+
 a.logo{
     float:left;
     padding-top: 15px;
@@ -78,19 +77,23 @@ header a{
     width: 468px;
 }
 
-button{
+.testo a{
     border-radius: 40px;
-    padding: 15px 21px;
+    padding: 12px 21px;
     border: none;
-    margin: 20px 8px;
+    margin: 0 8px;
     font-size: 16px;
 }
 
-.sezione1 button.scarica a{
+.bottoni{
+    margin:25px 0;
+}
+.testo  a.scarica{
+    background-color: white;
     color:black;
     font-weight: bolder;
 }
-.sezione1 button.apridiscord{
+.sezione1 a.apridiscord{
     background-color:rgb(59, 59, 59);
     color:rgb(255, 255, 255);
     font-weight: bolder;
@@ -236,10 +239,15 @@ button{
      /*overflow: auto;*/
  }
 
- .sezione5 button{
+ .sezione5 a{
+     display: inline-block;
      background-color: #5865f2;
      color: white;
      padding: 15px 40px;
+     border-radius: 40px;
+    border: none;
+    margin: 10px 8px;
+    font-size: 16px;
  }
  
 footer{
@@ -290,6 +298,15 @@ summary{
     position: absolute;
     bottom:0;
     left:10%;
+}
+
+.fine a.accedi{
+    float: right;
+    background-color:#5865f2;
+    border-radius: 20px;
+    color:white;
+    margin:15px 0;
+    padding:5px;
 }
 
 .sezioneinfo details{
