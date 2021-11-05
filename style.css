@@ -390,7 +390,22 @@ footer .social a{
     filter: invert(100%);
 }
 
-
+img.onda{
+    position: relative;
+    top: -60px;
+    height: 93px;
+    left: 0;
+    transform: none;
+    filter: opacity(0.03);
+}
+img.ondabianca{
+    position: relative;
+    top: -60px;
+    height: 93px;
+    left: 0;
+    transform: none;
+    filter: invert(1);
+}
 /*immagine il tuo posto per parlare, largo uguale
 sembra una cover, centrato fisso, menu centrato in alto
 logo: vertical align, line height,
