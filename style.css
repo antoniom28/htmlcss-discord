@@ -20,6 +20,10 @@ html p{
     overflow: hidden;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 li{
     display: inline-block;
     list-style: none;
@@ -39,7 +43,10 @@ a.accedi{
     border-radius: 20px;
     color:black;
     margin:15px 0;
-    padding:5px;
+    padding:5px 15px;
+}
+a.accedi:hover{
+    color:blue;
 }
 
 a.logo{
@@ -93,12 +100,18 @@ header a{
     color:black;
     font-weight: bolder;
 }
+a.scarica:hover {
+    color: blue;
+}
+
 .sezione1 a.apridiscord{
     background-color:rgb(59, 59, 59);
     color:rgb(255, 255, 255);
     font-weight: bolder;
 }
-
+a.apridiscord:hover {
+    filter: drop-shadow(0px 0px 5px rgb(70 70 70));
+}
 
 .sezione2 h2,
 .sezione4 h2{
@@ -250,6 +263,11 @@ header a{
     font-size: 16px;
  }
  
+ .sezione5 a:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(0,200,255));
+    color: white;
+ }
+
 footer{
     width: 100%;
     height: 80vh;
@@ -260,7 +278,7 @@ footer{
 footer li{
     float:left;
     list-style: none;
-    margin: 9px 0px 9px 83px;
+    margin: 9px 0px 9px 104px;
     line-height: 2;
 }
 
@@ -306,8 +324,13 @@ summary{
     border-radius: 20px;
     color:white;
     margin:15px 0;
-    padding:5px;
+    padding:5px 15px;
 }
+
+.fine a.accedi:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(0,200,255));
+    color: white;
+ }
 
 .sezioneinfo details{
     float:left;
@@ -317,9 +340,18 @@ div.lingua{
     margin: 20px 0;
 }
 
-footer p.titolo{
+p.titolo a{
     color: #5865f2;
 }
+.sezioneinfo a{
+        font-size:15px;
+        font-weight: bold;
+        color:white;
+}
+.sezioneinfo a:hover{
+    text-decoration: underline;
+}
+
 footer h2{
     font-size:32px;
     line-height: 1;
@@ -338,9 +370,13 @@ footer .lingua p{
 
 footer .social img{
     height: 18px;
-    margin-right:15px;
+}
+
+footer .social a{
+    margin-right:25px;
     filter: invert(100%);
 }
+
 
 /*immagine il tuo posto per parlare, largo uguale
 sembra una cover, centrato fisso, menu centrato in alto
