@@ -214,9 +214,9 @@ a.apridiscord:hover {
 }
 .sezione5 .immagine{
    /* background-color: red;*/
-    height:50%;
+    height:55%;
     width: 100%;
-    top:25%;
+    top:20%;
     overflow: hidden;
     position: relative;
 }
@@ -242,15 +242,28 @@ a.apridiscord:hover {
 
  .sezione5 .testo2{
     /* background-color: royalblue;*/
-     height: 20%;
+     height: 25%;
      width: 100%;
      position: absolute;
      left:0;
      bottom:0%;
      text-align: center;
+
      /*margin:0 7%;*/
      /*overflow: auto;*/
  }
+
+.testo2{
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    height: 166px;
+    background-position: center 31px;
+    background-size: 380px;
+}
+
+.testo2 h3{
+    padding-top:50px;
+}
 
  .sezione5 a{
      display: inline-block;
