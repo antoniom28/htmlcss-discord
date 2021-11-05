@@ -100,6 +100,12 @@ header a{
     color:black;
     font-weight: bolder;
 }
+a.scarica::before{
+    content: "\2193";
+    font-size: 20px;
+    padding-right: 8px;
+}
+
 a.scarica:hover {
     color: blue;
 }
@@ -406,6 +412,23 @@ img.ondabianca{
     transform: none;
     filter: invert(1);
 }
+
+
+.cerchio1{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid red;
+    border-radius:50px;
+}
+.cerchio2{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-bottom: 10px solid red;
+    border-radius:50px;
+}
+
 /*immagine il tuo posto per parlare, largo uguale
 sembra una cover, centrato fisso, menu centrato in alto
 logo: vertical align, line height,
